@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		581A0B302F1A88A2009FBF4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581A0B182F1A88A1009FBF4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581A0B1F2F1A88A1009FBF4B;
+			remoteInfo = hackthon_cool_phone;
+		};
+		581A0B3A2F1A88A2009FBF4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581A0B182F1A88A1009FBF4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581A0B1F2F1A88A1009FBF4B;
+			remoteInfo = hackthon_cool_phone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		581A0B202F1A88A1009FBF4B /* hackthon_cool_phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackthon_cool_phone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581A0B2F2F1A88A2009FBF4B /* hackthon_cool_phoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackthon_cool_phoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581A0B392F1A88A2009FBF4B /* hackthon_cool_phoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackthon_cool_phoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		581A0B222F1A88A1009FBF4B /* hackthon_cool_phone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hackthon_cool_phone;
+			sourceTree = "<group>";
+		};
+		581A0B322F1A88A2009FBF4B /* hackthon_cool_phoneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hackthon_cool_phoneTests;
+			sourceTree = "<group>";
+		};
+		581A0B3C2F1A88A2009FBF4B /* hackthon_cool_phoneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hackthon_cool_phoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		581A0B1D2F1A88A1009FBF4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581A0B2C2F1A88A2009FBF4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581A0B362F1A88A2009FBF4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581A0B172F1A88A1009FBF4B = {
+			isa = PBXGroup;
+			children = (
+				581A0B222F1A88A1009FBF4B /* hackthon_cool_phone */,
+				581A0B322F1A88A2009FBF4B /* hackthon_cool_phoneTests */,
+				581A0B3C2F1A88A2009FBF4B /* hackthon_cool_phoneUITests */,
+				581A0B212F1A88A1009FBF4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		581A0B212F1A88A1009FBF4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				581A0B202F1A88A1009FBF4B /* hackthon_cool_phone.app */,
+				581A0B2F2F1A88A2009FBF4B /* hackthon_cool_phoneTests.xctest */,
+				581A0B392F1A88A2009FBF4B /* hackthon_cool_phoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581A0B1F2F1A88A1009FBF4B /* hackthon_cool_phone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581A0B432F1A88A2009FBF4B /* Build configuration list for PBXNativeTarget "hackthon_cool_phone" */;
+			buildPhases = (
+				581A0B1C2F1A88A1009FBF4B /* Sources */,
+				581A0B1D2F1A88A1009FBF4B /* Frameworks */,
+				581A0B1E2F1A88A1009FBF4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				581A0B222F1A88A1009FBF4B /* hackthon_cool_phone */,
+			);
+			name = hackthon_cool_phone;
+			packageProductDependencies = (
+			);
+			productName = hackthon_cool_phone;
+			productReference = 581A0B202F1A88A1009FBF4B /* hackthon_cool_phone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		581A0B2E2F1A88A2009FBF4B /* hackthon_cool_phoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581A0B462F1A88A2009FBF4B /* Build configuration list for PBXNativeTarget "hackthon_cool_phoneTests" */;
+			buildPhases = (
+				581A0B2B2F1A88A2009FBF4B /* Sources */,
+				581A0B2C2F1A88A2009FBF4B /* Frameworks */,
+				581A0B2D2F1A88A2009FBF4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581A0B312F1A88A2009FBF4B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				581A0B322F1A88A2009FBF4B /* hackthon_cool_phoneTests */,
+			);
+			name = hackthon_cool_phoneTests;
+			packageProductDependencies = (
+			);
+			productName = hackthon_cool_phoneTests;
+			productReference = 581A0B2F2F1A88A2009FBF4B /* hackthon_cool_phoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		581A0B382F1A88A2009FBF4B /* hackthon_cool_phoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581A0B492F1A88A2009FBF4B /* Build configuration list for PBXNativeTarget "hackthon_cool_phoneUITests" */;
+			buildPhases = (
+				581A0B352F1A88A2009FBF4B /* Sources */,
+				581A0B362F1A88A2009FBF4B /* Frameworks */,
+				581A0B372F1A88A2009FBF4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581A0B3B2F1A88A2009FBF4B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				581A0B3C2F1A88A2009FBF4B /* hackthon_cool_phoneUITests */,
+			);
+			name = hackthon_cool_phoneUITests;
+			packageProductDependencies = (
+			);
+			productName = hackthon_cool_phoneUITests;
+			productReference = 581A0B392F1A88A2009FBF4B /* hackthon_cool_phoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581A0B182F1A88A1009FBF4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					581A0B1F2F1A88A1009FBF4B = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					581A0B2E2F1A88A2009FBF4B = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 581A0B1F2F1A88A1009FBF4B;
+					};
+					581A0B382F1A88A2009FBF4B = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 581A0B1F2F1A88A1009FBF4B;
+					};
+				};
+			};
+			buildConfigurationList = 581A0B1B2F1A88A1009FBF4B /* Build configuration list for PBXProject "hackthon_cool_phone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581A0B172F1A88A1009FBF4B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 581A0B212F1A88A1009FBF4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				581A0B1F2F1A88A1009FBF4B /* hackthon_cool_phone */,
+				581A0B2E2F1A88A2009FBF4B /* hackthon_cool_phoneTests */,
+				581A0B382F1A88A2009FBF4B /* hackthon_cool_phoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581A0B1E2F1A88A1009FBF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581A0B2D2F1A88A2009FBF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581A0B372F1A88A2009FBF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581A0B1C2F1A88A1009FBF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581A0B2B2F1A88A2009FBF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581A0B352F1A88A2009FBF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		581A0B312F1A88A2009FBF4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581A0B1F2F1A88A1009FBF4B /* hackthon_cool_phone */;
+			targetProxy = 581A0B302F1A88A2009FBF4B /* PBXContainerItemProxy */;
+		};
+		581A0B3B2F1A88A2009FBF4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581A0B1F2F1A88A1009FBF4B /* hackthon_cool_phone */;
+			targetProxy = 581A0B3A2F1A88A2009FBF4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		581A0B412F1A88A2009FBF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		581A0B422F1A88A2009FBF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		581A0B442F1A88A2009FBF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trigger.hackthon-cool-phone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		581A0B452F1A88A2009FBF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trigger.hackthon-cool-phone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		581A0B472F1A88A2009FBF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trigger.hackthon-cool-phoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackthon_cool_phone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackthon_cool_phone";
+			};
+			name = Debug;
+		};
+		581A0B482F1A88A2009FBF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trigger.hackthon-cool-phoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackthon_cool_phone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackthon_cool_phone";
+			};
+			name = Release;
+		};
+		581A0B4A2F1A88A2009FBF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trigger.hackthon-cool-phoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hackthon_cool_phone;
+			};
+			name = Debug;
+		};
+		581A0B4B2F1A88A2009FBF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trigger.hackthon-cool-phoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hackthon_cool_phone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		581A0B1B2F1A88A1009FBF4B /* Build configuration list for PBXProject "hackthon_cool_phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581A0B412F1A88A2009FBF4B /* Debug */,
+				581A0B422F1A88A2009FBF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581A0B432F1A88A2009FBF4B /* Build configuration list for PBXNativeTarget "hackthon_cool_phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581A0B442F1A88A2009FBF4B /* Debug */,
+				581A0B452F1A88A2009FBF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581A0B462F1A88A2009FBF4B /* Build configuration list for PBXNativeTarget "hackthon_cool_phoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581A0B472F1A88A2009FBF4B /* Debug */,
+				581A0B482F1A88A2009FBF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581A0B492F1A88A2009FBF4B /* Build configuration list for PBXNativeTarget "hackthon_cool_phoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581A0B4A2F1A88A2009FBF4B /* Debug */,
+				581A0B4B2F1A88A2009FBF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 581A0B182F1A88A1009FBF4B /* Project object */;
+}
