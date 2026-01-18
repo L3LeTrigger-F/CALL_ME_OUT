@@ -1,10 +1,3 @@
-//
-//  hackthon_cool_phoneApp.swift
-//  hackthon_cool_phone
-//
-//  Created by leslie liu on 2026/1/16.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -22,11 +15,16 @@ struct hackthon_cool_phoneApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+    init() {
+        _ = VolumeButtonManager.shared
+        print("🚀 应用启动，音量监听已初始化")
+    }
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()  // ✅ 使用 RootView 替代 ContentView
+                .modelContainer(sharedModelContainer)
         }
-        .modelContainer(sharedModelContainer)
     }
 }
