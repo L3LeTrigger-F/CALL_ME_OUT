@@ -2,13 +2,14 @@ import SwiftUI
 
 struct RootView: View {
     @State private var showSplash = true
+    @Binding var forceHideSplash: Bool
     
     var body: some View {
         ZStack {
             ContentView()
-                .opacity(showSplash ? 0 : 1)
+                .opacity((showSplash && !forceHideSplash) ? 0 : 1)
             
-            if showSplash {
+            if showSplash && !forceHideSplash {
                 ParticleExplosionSplash(isActive: $showSplash)
                 // 选择一个样式（取消其他的注释）
                 
